@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ## Setup
 
-the gem uses env variables stored in .env to connect to voxmail APIs. you can pute them in a .env file at the root of your project.
-you can find more informations on Voxmail APIs [here](http://www.voxmail.it)
+the gem uses environment variables stored in .env file to connect to Voxmail APIs.
+You can put them in a .env file at the root of your project.
 
 ```
 VOXMAILHOST = 'your voxmail hostname'
@@ -33,7 +33,7 @@ you can obtain API keys through Voxmail account dashboard.
 ## Usage
 
 ```
-* voxmail.info
+voxmail.info
 ```
 will return informations about your voxmail account
 
@@ -42,7 +42,8 @@ you can use all the methods provided by voxmail in this way:
 ```
 @myvoxmail = Voxmail.lookup(method, *args)
 ```
-check voxmail website to see available methods 
+Check [Voxmail website](http://www.voxmail.it) to see available methods
+
 
 ## Todo
 1. integrate errors from APIs
