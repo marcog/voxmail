@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Marco Ghezzi"]
   spec.email         = ["marcog@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Very Simple APIs wrapper for Voxmail}
   spec.description   = %q{Very Simple APIs wrapper for [Voxmail]:http://www.voxmail.it}
   spec.homepage      = "https://github.com/marcog/voxmail"
